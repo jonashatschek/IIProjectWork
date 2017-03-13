@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50433/ProjectService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Xml.Linq" />
+  <xs:element name="HämtaEvents">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fromInclusive" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toInclusive" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="readPointEPC" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HämtaEventsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Xml.Linq" minOccurs="0" name="HämtaEventsResult" nillable="true" type="q1:ArrayOfXElement" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HämtaPlats">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="epc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HämtaPlatsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HämtaPlatsResult" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HämtaFordon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="epc" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HämtaFordonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HämtaFordonResult" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HämtaAllaPlatser">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HämtaAllaPlatserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HämtaAllaPlatserResult" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

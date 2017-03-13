@@ -1,0 +1,319 @@
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\obj\Debug\IIProjectClient.csprojResolveAssemblyReference.cache
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\IIProjectClient.dll.config
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\IIProjectClient.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\IIProjectClient.pdb
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Antlr3.Runtime.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.Core.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\EntityFramework.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Microsoft.Data.Edm.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Microsoft.Data.OData.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Newtonsoft.Json.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Spatial.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Helpers.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Http.OData.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Mvc.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Optimization.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Razor.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.WebPages.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.WebPages.Razor.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\WebGrease.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\WebMatrix.Data.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\WebMatrix.WebData.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\EntityFramework.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Newtonsoft.Json.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Helpers.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Mvc.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Razor.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.WebPages.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.WebPages.Razor.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\WebMatrix.Data.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\WebMatrix.WebData.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.Core.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Web.Http.OData.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Microsoft.Data.Edm.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\Microsoft.Data.OData.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\System.Spatial.xml
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\de\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\es\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\fr\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\it\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ja\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ko\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\ru\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\obj\Debug\IIProjectClient.dll
+C:\Users\jakma536\Documents\Visual Studio 2013\Projects\IIProjectClient\IIProjectClient\obj\Debug\IIProjectClient.pdb
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\IIProjectClient.dll.config
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\IIProjectClient.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\IIProjectClient.pdb
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Antlr3.Runtime.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.AspNet.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.Core.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.Consumer.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\EntityFramework.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Microsoft.Data.Edm.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Microsoft.Data.OData.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Microsoft.Web.Infrastructure.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Newtonsoft.Json.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Spatial.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Helpers.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Http.OData.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Mvc.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Optimization.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Razor.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Deployment.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Razor.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\WebGrease.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\WebMatrix.Data.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\WebMatrix.WebData.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Helpers.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Mvc.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Razor.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Deployment.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Razor.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\EntityFramework.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Newtonsoft.Json.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\WebMatrix.Data.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\WebMatrix.WebData.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.AspNet.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.Core.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.Consumer.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Web.Http.OData.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Microsoft.Data.Edm.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\Microsoft.Data.OData.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\System.Spatial.xml
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\de\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\es\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\fr\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\it\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ja\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ko\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ru\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\de\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\es\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\fr\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\it\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ja\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ko\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ru\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\de\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\es\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\fr\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\it\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ja\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ko\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\ru\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\zh-Hans\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\bin\zh-Hant\System.Spatial.resources.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.pdb
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\IIProjectClient.dll.config
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\IIProjectClient.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\IIProjectClient.pdb
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Antlr3.Runtime.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.AspNet.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.Core.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.Consumer.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\EntityFramework.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Data.Edm.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Data.OData.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Web.Infrastructure.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Newtonsoft.Json.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Spatial.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Helpers.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Http.OData.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Mvc.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Optimization.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Razor.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Deployment.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Razor.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\WebGrease.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\WebMatrix.Data.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\WebMatrix.WebData.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Helpers.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Mvc.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Razor.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Deployment.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Razor.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\EntityFramework.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Newtonsoft.Json.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\WebMatrix.Data.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.AspNet.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.Core.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.Consumer.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Http.OData.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Data.Edm.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Data.OData.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Spatial.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\WebMatrix.WebData.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\de\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\es\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\fr\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\it\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ja\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ko\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ru\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\de\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\es\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\fr\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\it\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ja\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ko\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ru\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\de\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\es\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\fr\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\it\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ja\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ko\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\ru\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\zh-Hans\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\zh-Hant\System.Spatial.resources.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.pdb
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\IIProjectClient.dll.config
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\IIProjectClient.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\IIProjectClient.pdb
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Antlr3.Runtime.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.Core.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\EntityFramework.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Microsoft.Data.Edm.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Microsoft.Data.OData.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Newtonsoft.Json.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Net.Http.Formatting.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Spatial.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Helpers.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Http.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Http.OData.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Http.WebHost.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Mvc.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Optimization.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Razor.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\WebGrease.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\WebMatrix.Data.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\WebMatrix.WebData.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Helpers.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Mvc.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Razor.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\EntityFramework.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Newtonsoft.Json.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Net.Http.Formatting.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Http.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Http.WebHost.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\WebMatrix.Data.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.Core.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Web.Http.OData.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Microsoft.Data.Edm.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\Microsoft.Data.OData.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\System.Spatial.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\WebMatrix.WebData.xml
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\de\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\es\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\fr\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\it\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ja\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ko\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\ru\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.csprojResolveAssemblyReference.cache
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.pdb

@@ -1,0 +1,39 @@
+﻿@model IIProjectClient.Models.Sökning
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Event</legend>
+        <div>
+            <label>Från</label>
+            @Html.TextBox("from", null, new { type = "date" })
+        </div>
+        <div>
+            <label>Till</label>
+            @Html.TextBox("tom", null, new { type = "date" })
+        </div>
+        <div>
+            <label>Plats</label>
+            @Html.TextBox("plats", null, new { type = "string" })
+        </div>
+        <p>
+            <input type="submit" value="Sök"/>
+        </p>
+    </fieldset>
+}
+
+@if (Model != null)
+{
+    foreach (var item in Model.fordonPassage)
+    {
+        @Html.TextArea(item.EVN)
+    }
+}

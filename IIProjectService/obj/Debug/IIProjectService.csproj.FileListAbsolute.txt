@@ -1,0 +1,17 @@
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectService\bin\IIProjectService.dll.config
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectService\bin\IIProjectService.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectService\bin\IIProjectService.pdb
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.csprojResolveAssemblyReference.cache
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.dll
+U:\Downloads\IIProjectWork\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.pdb
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\IIProjectService.dll.config
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\IIProjectService.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\IIProjectService.pdb
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.pdb
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectService\bin\IIProjectService.dll.config
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectService\bin\IIProjectService.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectService\bin\IIProjectService.pdb
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.csprojResolveAssemblyReference.cache
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.dll
+C:\Users\Jonas\Dropbox\Systemvetarprogrammet\Terminer\T6\Informationsinfrastruktur\Projektarbete\Nytt innan github\IIProjectWork-20170313T133300Z-001\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.pdb
