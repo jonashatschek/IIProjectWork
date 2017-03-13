@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml.Linq;
+using System.ComponentModel.DataAnnotations;
 
 namespace IIProjectClient.Models
 {
@@ -30,11 +31,11 @@ namespace IIProjectClient.Models
                     platsNamn = xml.Element("Plats").Element("platsNamn").Value
                 },
                 tidpunkt = xml.Element("tidpunkt").Value,
-                EVN = xml.Element("EVN").Value,
-                fordonsinnehavare = xml.Element("fordonsinnehavare").Value,
-                uaForetag = xml.Element("uaForetag").Value,
-                fordonstyp = xml.Element("fordonstyp").Value,
-                giltigtGodkannande = xml.Element("giltigtGodkannande").Value
+                EVN = xml.Element("FordonsInfo").Element("EVN").Value,
+                fordonsinnehavare = xml.Element("FordonsInfo").Element("fordonsinnehavare").Value,
+                uaForetag = xml.Element("FordonsInfo").Element("uaForetag").Value,
+                fordonstyp = xml.Element("FordonsInfo").Element("fordonstyp").Value,
+                giltigtGodkannande = xml.Element("FordonsInfo").Element("giltigtGodkannande").Value
             };
             return fordonPassage;
         }
@@ -47,11 +48,12 @@ namespace IIProjectClient.Models
                     new XElement("fordonsEPC", this.fordonsEPC),
                     plats.toXML(),
                     new XElement("tidpunkt", this.tidpunkt.ToString()),
-                    new XElement("EVN", this.EVN),
-                    new XElement("fordonsinnehavare", this.fordonsinnehavare),
-                    new XElement("uaForetag", this.uaForetag),
-                    new XElement("fordonstyp", this.fordonstyp),
-                    new XElement("giltigtGodkannande", this.giltigtGodkannande)
+                    new XElement("FordonsInfo",
+                        new XElement("EVN", this.EVN),
+                        new XElement("fordonsinnehavare", this.fordonsinnehavare),
+                        new XElement("uaForetag", this.uaForetag),
+                        new XElement("fordonstyp", this.fordonstyp),
+                        new XElement("giltigtGodkannande", this.giltigtGodkannande))
                     );
             return xml;
 
@@ -60,33 +62,34 @@ namespace IIProjectClient.Models
     }
 
 }
-/*
- <sökning>
-    <id></id>
-    <FordonPassage>
-        <ID></ID>
-        <fordonsEPC></fordonsEPC>
-        <Plats>
-            <platsEPC></platsEPC>
-            <platsNamn></platsnamn>
-        </Plats>
-        <tidpunkt></tidpunkt>
-        <EVN></EVN>
-        <fordonsinnehavare></fordonsinnehavare>
-        <uaForetag></uaForetag>
-        <fordonstyp></fordonstyp>
-        <giltigtGodkannande></giltigtGodkannande>
-    </FordonPassage>
-    <Tjänstemeddelande>
-        <ID></ID>
-        <svarskod></svarskod>
-        <meddelande></meddelande>
-        <tjänsteansvarig></tjänsteansvarig>
-        <appNamnVer></appNamnVer>
-        <tidpunkt></tidpunkt>
-        <anropsansvarig></anropsansvarig>
-        <argument></argument>
-    </Tjänstemeddelande>
- </sökning>
- 
- */
+/* Såhär ska hela XML-svaret se ut i slutändan. 
+<sökning>
+   <id></id>
+   <FordonPassage>
+       <ID></ID>
+       <fordonsEPC></fordonsEPC>
+       <Plats>
+           <platsEPC></platsEPC>
+           <platsNamn></platsnamn>
+       </Plats>
+       <tidpunkt></tidpunkt>
+       <FordonsInfo>
+            <EVN></EVN>
+            <fordonsinnehavare></fordonsinnehavare>
+            <uaForetag></uaForetag>
+            <fordonstyp></fordonstyp>
+            <giltigtGodkannande></giltigtGodkannande>
+       </FordonsInfo>
+   </FordonPassage>
+   <Tjänstemeddelande>
+       <ID></ID>
+       <svarskod></svarskod>
+       <meddelande></meddelande>
+       <tjänsteansvarig></tjänsteansvarig>
+       <appNamnVer></appNamnVer>
+       <tidpunkt></tidpunkt>
+       <anropsansvarig></anropsansvarig>
+       <argument></argument>
+   </Tjänstemeddelande>
+</sökning>
+*/

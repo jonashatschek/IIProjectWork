@@ -30,11 +30,13 @@ namespace IIProjectClient.Controllers
                    <platsNamn></platsnamn>
                </Plats>
                <tidpunkt></tidpunkt>
-               <EVN></EVN>
-               <fordonsinnehavare></fordonsinnehavare>
-               <uaForetag></uaForetag>
-               <fordonstyp></fordonstyp>
-               <giltigtGodkannande></giltigtGodkannande>
+               <FordonsInfo>
+                    <EVN></EVN>
+                    <fordonsinnehavare></fordonsinnehavare>
+                    <uaForetag></uaForetag>
+                    <fordonstyp></fordonstyp>
+                    <giltigtGodkannande></giltigtGodkannande>
+               </FordonsInfo>
            </FordonPassage>
            <Tjänstemeddelande>
                <ID></ID>
@@ -73,40 +75,41 @@ namespace IIProjectClient.Controllers
                 platsNamn = platsen.Element("Location").Element("Name").Value,
                 platsEPC = platsen.Element("Location").Element("Epc").Value
             };
-
+            var fordon = client.HämtaFordon("urn:epc:id:giai:123456.1847447213244");
             var fordonpassage = from fp in events.Descendants("ObjectEvent") //events kommer bytas här antar jag.
                                 let id = "" //Dessa rader ska fyllas i vart man hittar infon.
                                 let fordonsEPC = fp.Element("epcList").Element("epc").Value
                                 let tidpunkt = fp.Element("eventTime").Value
-                                //Kan man göra såhär?!?
-                                let EVN = (from e in client.HämtaFordon(fordonsEPC).Descendants("FordonsIndivid") select e.Element("Fordonsnummer").Value)
-                                let fordonsinnehavare = ""
-                                let uaForetag = ""
-                                let fordonstyp = ""
-                                let giltigtGodkannade = ""
                                 select 
-                new XElement("FordonPassage",
-                    new XElement("ID", id),
-                    new XElement("fordonsEPC",fordonsEPC),
-                    söktPlats.toXML(),
-                    new XElement("tidpunkt", tidpunkt),
-                    new XElement("EVN", EVN),
-                    new XElement("fordonsinnehavare", fordonsinnehavare),
-                    new XElement("uaForetag", uaForetag),
-                    new XElement("fordonstyp",fordonstyp),
-                    new XElement("giltigtGodkannande", giltigtGodkannade)
+                                    new XElement("FordonPassage",
+                                        new XElement("ID", id),
+                                        new XElement("fordonsEPC",fordonsEPC),
+                                        söktPlats.toXML(),
+                                        new XElement("tidpunkt", tidpunkt),
+                                            from e in client.HämtaFordon(fordonsEPC).Descendants("Fordonsindivider")
+                                            select
+                                            new XElement("FordonsInfo",
+                                                    new XElement("EVN", e.Element("FordonsIndivid").Element("Fordonsnummer").Value),
+                                                    new XElement("fordonsinnehavare", e.Element("FordonsIndivid").Element("Fordonsinnehavare").Element("Foretag").Value),
+                                                    new XElement("uaForetag", e.Element("FordonsIndivid").Element("UnderhallsansvarigtForetag").Element("Foretag").Value),
+                                                    new XElement("fordonstyp", (from f in client.HämtaFordon(fordonsEPC).Descendants("FordonsTyp")
+                                                                                select f.Element("FordonskategoriKodFullVardeSE").Value)),
+                                                    new XElement("giltigtGodkannande", "asd")
+                                                    )
+
                 );
+
 
 
             //Här bygger vi ihop tjänstemeddelandet som ska följa med en sökning. 
             int ID = 0;
-            string Svarskod = "";
-            string Meddelande = "";
-            string Tjansteansvarig = "";
-            string AppNamnVer = "";
+            string Svarskod = "tst";
+            string Meddelande = "tst";
+            string Tjansteansvarig = "tst";
+            string AppNamnVer = "tst";
             DateTime Tidpunkt = DateTime.Now;
-            string Anropsansvarig = "";
-            string Argument = "";
+            string Anropsansvarig = "test";
+            string Argument = "tst";
 
             Tjänstemeddelande tjanstemeddelande = new Tjänstemeddelande()
             {
