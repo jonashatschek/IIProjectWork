@@ -172,6 +172,8 @@ x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Data.OD
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Web.Infrastructure.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Newtonsoft.Json.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\PagedList.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\PagedList.Mvc.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Spatial.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Helpers.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Http.OData.dll
@@ -185,6 +187,8 @@ x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\WebGrease.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\WebMatrix.Data.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\WebMatrix.WebData.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\Microsoft.Web.WebPages.OAuth.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\PagedList.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\PagedList.Mvc.xml
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Helpers.xml
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Mvc.xml
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectClient\bin\System.Web.Razor.xml

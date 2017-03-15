@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml.Linq;
+using PagedList;
 
 namespace IIProjectClient.Models
 {
     public class Sökning
     {
-        //public int ID { get; set; }
         public IEnumerable<FordonPassage> fordonPassage { get; set; }
         public Tjänstemeddelande tjänstemeddelande { get; set; }
 
@@ -20,9 +20,7 @@ namespace IIProjectClient.Models
 }
 /*
  <sökning>
-    <id></id> överflödig?
     <FordonPassage>
-        <ID></ID>
         <fordonsEPC></fordonsEPC>
         <Plats>
             <platsEPC></platsEPC>
@@ -37,7 +35,6 @@ namespace IIProjectClient.Models
         <giltigtGodkannande></giltigtGodkannande>
     </FordonPassage>
     <Tjänstemeddelande>
-        <ID></ID>
         <svarskod></svarskod>
         <meddelande></meddelande>
         <tjänsteansvarig></tjänsteansvarig>

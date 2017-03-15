@@ -1,0 +1,171 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<IIProjectClient.Models.FordonPassage>
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css"/>
+
+@{
+    ViewBag.Title = "Sökning";
+}
+
+<h2>Sökning</h2>
+
+@if (Model != null)
+{
+    <table>
+        <thead>
+            <tr style="font-weight: bold">
+                <th>
+                    Svarsinformation
+                </th>
+                <th></th>
+                <th>
+                    Anropsinformation
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+    <tr>
+        <td>
+            Svarskod
+        </td>
+        <td>
+            @Html.Raw(Model.FirstOrDefault().tjanstemeddelande.svarskod)
+        </td>
+        <td>
+            Anropsansvarig
+        </td>
+        <td>
+            @Html.Raw(Model.FirstOrDefault().tjanstemeddelande.anropsansvarig)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Meddelande
+        </td>
+        <td>
+            @Html.Raw(Model.FirstOrDefault().tjanstemeddelande.meddelande)
+        </td>
+        <td>
+            Argument för sökning
+        </td>
+        <td>
+            @Html.Raw(Model.FirstOrDefault().tjanstemeddelande.argument)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tjänsteansvarig
+        </td>
+        <td>
+            @Html.Raw(Model.FirstOrDefault().tjanstemeddelande.tjänsteansvarig)
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            Applikationsnamn och version
+        </td>
+        <td>
+            @Html.Raw(Model.FirstOrDefault().tjanstemeddelande.appNamnVer)
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            Tidpunkt för svaret
+        </td>
+        <td>
+            @Html.Raw(Model.FirstOrDefault().tjanstemeddelande.tidpunkt.ToString("d"))
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    </table>
+    <hr />
+    foreach (var item in Model)
+    {
+        <table>
+            <tr style="font-weight: bold">
+                <td>
+                    Fordonets EPC
+                </td>
+                <td>
+                    @Html.Raw(item.fordonsEPC)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Platsens EPC
+                </td>
+                <td>
+                    @Html.Raw(item.plats.platsEPC)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tid
+                </td>
+                <td>
+                    @Html.Raw(item.tidpunkt)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Plats
+                </td>
+                <td>
+                    @Html.Raw(item.plats.platsNamn)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    EVN
+                </td>
+                <td>
+                    @Html.Raw(item.EVN)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Fordoninnehavare
+                </td>
+                <td>
+                    @Html.Raw(item.fordonsinnehavare)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Underhållsansvarigt företag
+                </td>
+                <td>
+                    @Html.Raw(item.uaForetag)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Fordonstyp
+                </td>
+                <td>
+                    @Html.Raw(item.fordonstyp)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Giltigt godkännande
+                </td>
+                <td>
+                    @Html.Raw(item.giltigtGodkannande)
+                </td>
+            </tr>
+        </table>
+    }
+}
+<div style="text-align:center">
+    @Html.PagedListPager(Model, sida => Url.Action("Sökning", new { sida = sida }),PagedListRenderOptions.OnlyShowFivePagesAtATime)
+</div>
+

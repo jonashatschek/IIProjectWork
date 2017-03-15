@@ -7,6 +7,10 @@ U:\Downloads\IIProjectWork\IIProjectWork\IIProjectService\obj\Debug\IIProjectSer
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\IIProjectService.dll.config
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\IIProjectService.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\IIProjectService.pdb
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\PagedList.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\PagedList.Mvc.dll
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\PagedList.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\bin\PagedList.Mvc.xml
+x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.csprojResolveAssemblyReference.cache
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.dll
 x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.pdb
-x:\Desktop\Projektarbete-IIS\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.csprojResolveAssemblyReference.cache

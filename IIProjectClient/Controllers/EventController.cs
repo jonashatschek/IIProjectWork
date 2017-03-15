@@ -5,115 +5,116 @@ using System.Web;
 using System.Web.Mvc;
 using System.Xml.Linq;
 using System.Web.Hosting;
-using IIProjectClient.ProjectService;
+using IIProjectClient.projectService;
 using IIProjectClient.Models;
+using PagedList;
 
 namespace IIProjectClient.Controllers
 {
     public class EventController : Controller
     {
-        iProjectServiceClient client = new iProjectServiceClient();
+        private iProjectServiceClient client = new iProjectServiceClient();
+        private List<string> användare = new List<string>();
+        private List<FordonPassage> listFordonPassage = new List<FordonPassage>();
         
-        // GET: Event
         public ActionResult Index()
         {
+
             return View();
         }
-        /* Såhär ska hela XML-svaret se ut i slutändan. 
-        <sökning>
-           <id></id>
-           <FordonPassage>
-               <ID></ID>
-               <fordonsEPC></fordonsEPC>
-               <Plats>
-                   <platsEPC></platsEPC>
-                   <platsNamn></platsnamn>
-               </Plats>
-               <tidpunkt></tidpunkt>
-               <FordonsInfo>
-                    <EVN></EVN>
-                    <fordonsinnehavare></fordonsinnehavare>
-                    <uaForetag></uaForetag>
-                    <fordonstyp></fordonstyp>
-                    <giltigtGodkannande></giltigtGodkannande>
-               </FordonsInfo>
-           </FordonPassage>
-           <Tjänstemeddelande>
-               <ID></ID>
-               <svarskod></svarskod>
-               <meddelande></meddelande>
-               <tjänsteansvarig></tjänsteansvarig>
-               <appNamnVer></appNamnVer>
-               <tidpunkt></tidpunkt>
-               <anropsansvarig></anropsansvarig>
-               <argument></argument>
-           </Tjänstemeddelande>
-        </sökning>
-        */
 
-        [HttpPost]
-        public ActionResult Index(DateTime from, DateTime tom, string plats)
+        public ActionResult Sökning(int? sida)
         {
-            //Hämtar alla platser.
-            XElement allaPlatser = client.HämtaAllaPlatser();
-            //Hittar platsens epc.
-            var specplatsXML = from p in allaPlatser.Descendants("Location")
-                               where p.Element("Name").Value == plats
-                               select
-                               new XElement("Plats",
-                                   new XElement("epc", p.Element("Epc").Value));
-            string specplats = specplatsXML.Elements("epc").FirstOrDefault().Value;
+            listFordonPassage = (List<FordonPassage>)TempData["modellen"];
+            int sidnummer = (sida ?? 1);
+            int antalsidor = 5;
+            TempData["modellen"] = listFordonPassage;
+            return View(listFordonPassage.ToPagedList(sidnummer, antalsidor));
+        }
+            
+        [HttpPost]
+        public ActionResult Index(DateTime from, DateTime tom, string plats, string namn)
+        {
 
+            användare.Add("Krösus Sork");
+            användare.Add("Vargen");
+            användare.Add("Heffaklumpen");
+            användare.Add("Gargamel");
 
-            //Hämtar alla event inom ett tidsspann.
-            IEnumerable<XElement> events = client.HämtaEvents(from, tom, specplats);
-            //Hämtar info om platsen som skrevs in i vyn.
-            XElement platsen = client.HämtaPlats(specplats);
+            string Svarskod = "";
+            string Meddelande = "";
+            string Tjansteansvarig = "PG-8";
+            string AppNamnVer = "IIProjectWork, 1.0";
+            DateTime Tidpunkt = DateTime.Now.Date;
+            string Anropsansvarig = namn;
+            string Argument = from.Date.ToString("d") + ", " + tom.Date.ToString("d") + ", " + plats;
 
-            Plats söktPlats = new Plats()
+            if (!användare.Contains(namn))
             {
-                platsNamn = platsen.Element("Location").Element("Name").Value,
-                platsEPC = platsen.Element("Location").Element("Epc").Value
-            };
-            var fordon = client.HämtaFordon("urn:epc:id:giai:123456.1847447213244");
-            var fordonpassage = from fp in events.Descendants("ObjectEvent") //events kommer bytas här antar jag.
-                                let id = "" //Dessa rader ska fyllas i vart man hittar infon.
-                                let fordonsEPC = fp.Element("epcList").Element("epc").Value
-                                let tidpunkt = fp.Element("eventTime").Value
-                                select 
-                                    new XElement("FordonPassage",
-                                        new XElement("ID", id),
-                                        new XElement("fordonsEPC",fordonsEPC),
-                                        söktPlats.toXML(),
-                                        new XElement("tidpunkt", tidpunkt),
-                                            from e in client.HämtaFordon(fordonsEPC).Descendants("Fordonsindivider")
-                                            select
-                                            new XElement("FordonsInfo",
-                                                    new XElement("EVN", e.Element("FordonsIndivid").Element("Fordonsnummer").Value),
-                                                    new XElement("fordonsinnehavare", e.Element("FordonsIndivid").Element("Fordonsinnehavare").Element("Foretag").Value),
-                                                    new XElement("uaForetag", e.Element("FordonsIndivid").Element("UnderhallsansvarigtForetag").Element("Foretag").Value),
-                                                    new XElement("fordonstyp", (from f in client.HämtaFordon(fordonsEPC).Descendants("FordonsTyp")
-                                                                                select f.Element("FordonskategoriKodFullVardeSE").Value)),
-                                                    new XElement("giltigtGodkannande", "asd")
-                                                    )
+                Svarskod = "3";
+                Meddelande = "Ej behörig bandit.";
+            }
+            else
+            {
+                if (DateTime.Compare(from,tom) >= 0)
+                {
+                    Svarskod = "2";
+                    Meddelande = "Kontrollera input.";
+                }
+                else
+                {
+                    Svarskod = "1";
+                    Meddelande = "Behörig användare.";
 
-                );
+                    XElement allaPlatser = client.HämtaAllaPlatser();
+                    var specplatsXML = from p in allaPlatser.Descendants("Location")
+                                       where p.Element("Name").Value == plats
+                                       select
+                                       new XElement("Plats",
+                                           new XElement("epc", p.Element("Epc").Value));
+                    string specplats = specplatsXML.Elements("epc").FirstOrDefault().Value;
+
+                    XElement platsen = client.HämtaPlats(specplats);
+                    Plats söktPlats = new Plats()
+                    {
+                        platsNamn = platsen.Element("Location").Element("Name").Value,
+                        platsEPC = platsen.Element("Location").Element("Epc").Value
+                    };
+
+                    IEnumerable<XElement> events = client.HämtaEvents(from, tom, specplats);
+                    var fordonpassage = from fp in events.Descendants("ObjectEvent")
+                                        let fordonsEPC = fp.Element("epcList").Element("epc").Value
+                                        let tidpunkt = fp.Element("eventTime").Value
+                                        select
+                                            new XElement("FordonPassage",
+                                                new XElement("fordonsEPC", fordonsEPC),
+                                                söktPlats.toXML(),
+                                                new XElement("tidpunkt", tidpunkt),
+                                                    from e in client.HämtaFordon(fordonsEPC).Descendants("Fordonsindivider")
+                                                    select
+                                                    new XElement("FordonsInfo",
+                                                            new XElement("EVN", e.Element("FordonsIndivid").Element("Fordonsnummer").Value),
+                                                            new XElement("fordonsinnehavare", e.Element("FordonsIndivid").Element("Fordonsinnehavare").Element("Foretag").Value),
+                                                            new XElement("uaForetag", e.Element("FordonsIndivid").Element("UnderhallsansvarigtForetag").Element("Foretag").Value),
+                                                            new XElement("fordonstyp", (from f in client.HämtaFordon(fordonsEPC).Descendants("FordonsTyp")
+                                                                                        select f.Element("FordonskategoriKodFullVardeSE").Value)),
+                                                            new XElement("giltigtGodkannande", e.Element("FordonsIndivid").Element("Godkannande").Element("FordonsgodkannandeFullVardeSE").Value)
+                                                            )
+
+                                            );
+
+                    foreach (var item in fordonpassage)
+                    {
+                        listFordonPassage.Add(FordonPassage.fromXML(item));
+                    }
 
 
 
-            //Här bygger vi ihop tjänstemeddelandet som ska följa med en sökning. 
-            int ID = 0;
-            string Svarskod = "tst";
-            string Meddelande = "tst";
-            string Tjansteansvarig = "tst";
-            string AppNamnVer = "tst";
-            DateTime Tidpunkt = DateTime.Now;
-            string Anropsansvarig = "test";
-            string Argument = "tst";
+                }
+            }
 
             Tjänstemeddelande tjanstemeddelande = new Tjänstemeddelande()
             {
-                ID = ID,
                 svarskod = Svarskod,
                 meddelande = Meddelande,
                 tjänsteansvarig = Tjansteansvarig,
@@ -122,73 +123,56 @@ namespace IIProjectClient.Controllers
                 anropsansvarig = Anropsansvarig,
                 argument = Argument
             };
-
-            //Konverterar varje XLM-fordonspassage till ett FordonPassage-objekt
-            //och lägger till det objeketet i en ny lista.
-            List<FordonPassage> listFordonPassage = new List<FordonPassage>();
-            foreach (var item in fordonpassage)
+            foreach (var item in listFordonPassage)
             {
-                listFordonPassage.Add(FordonPassage.fromXML(item));
+                XElement godkannande = client.HämtaFordon(item.fordonsEPC).Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande");
+
+                if (item.giltigtGodkannande.Contains("Tillsvidare godkännande"))
+                {
+                    item.giltigtGodkannande = String.Empty;
+                    item.giltigtGodkannande = "Tillsvidare godkännande, Fr.o.m.: " + godkannande.Element("GiltigtFrom").Value.Substring(0, 10);
+                }
+                else
+                {
+                    string ejGodkand = item.giltigtGodkannande;
+                    item.giltigtGodkannande = String.Empty;
+                    item.giltigtGodkannande = ejGodkand + ", Fr.o.m.: " + godkannande.Element("GiltigtFrom").Value.Substring(0, 10) + ", T.o.m.: " + godkannande.Element("GiltigtTom").Value.Substring(0, 10);
+                }
+                item.tjanstemeddelande = tjanstemeddelande;
             }
-            
-            //All info om sökningen kommer finnas med i ett objekt av typen Sökning
-            //skapas på följande vis.
-            Sökning sokning = new Sökning()
-            {
-                tjänstemeddelande = tjanstemeddelande,
-                fordonPassage = listFordonPassage
-            };
-
-
-            return View(sokning);
+            TempData["modellen"] = listFordonPassage; 
+            return RedirectToAction("Sökning");
         }
 
-
-
-
-
-
-
-
-
-        //---------------------ALLT DETTA KANSKE ÄR SKRÄP ?------------
-        public ActionResult GetAllFiles()
-        {
-            throw new NotImplementedException();
-        }
-
-        public ActionResult GetEvent(String filename)
-        {
-            throw new NotImplementedException();
-        }
-
-        [HttpPost]
-        public ActionResult GetAllEvents(DateTime from, DateTime to, string plats)
-        {
-            IEnumerable<XElement> events = client.HämtaEvents(from, to, plats);
-
-            return View(events);
-        }
-
-        public ActionResult GetAllEvents()
-        {
-            return View();
-        }
-
-        public ActionResult Vehicles(String epc)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ActionResult Location(String epc)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ActionResult AllLocations()
-        {
-            throw new NotImplementedException();
-        }
-
+/* Såhär ska hela XML-svaret se ut i slutändan. 
+<sökning>
+   <id></id>
+   <FordonPassage>
+       <fordonsEPC></fordonsEPC>
+       <Plats>
+           <platsEPC></platsEPC>
+           <platsNamn></platsnamn>
+       </Plats>
+       <tidpunkt></tidpunkt>
+       <FordonsInfo>
+            <EVN></EVN>
+            <fordonsinnehavare></fordonsinnehavare>
+            <uaForetag></uaForetag>
+            <fordonstyp></fordonstyp>
+            <giltigtGodkannande></giltigtGodkannande>
+       </FordonsInfo>
+   </FordonPassage>
+   <Tjänstemeddelande>
+       <ID></ID>
+       <svarskod></svarskod>
+       <meddelande></meddelande>
+       <tjänsteansvarig></tjänsteansvarig>
+       <appNamnVer></appNamnVer>
+       <tidpunkt></tidpunkt>
+       <anropsansvarig></anropsansvarig>
+       <argument></argument>
+   </Tjänstemeddelande>
+</sökning>
+*/
     }
 }

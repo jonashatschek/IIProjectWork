@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IIProjectClient.ProjectService {
+namespace IIProjectClient.projectService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ProjectService.iProjectService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="projectService.iProjectService")]
     public interface iProjectService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/iProjectService/HämtaEvents", ReplyAction="http://tempuri.org/iProjectService/HämtaEventsResponse")]
@@ -41,12 +41,12 @@ namespace IIProjectClient.ProjectService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface iProjectServiceChannel : IIProjectClient.ProjectService.iProjectService, System.ServiceModel.IClientChannel {
+    public interface iProjectServiceChannel : IIProjectClient.projectService.iProjectService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class iProjectServiceClient : System.ServiceModel.ClientBase<IIProjectClient.ProjectService.iProjectService>, IIProjectClient.ProjectService.iProjectService {
+    public partial class iProjectServiceClient : System.ServiceModel.ClientBase<IIProjectClient.projectService.iProjectService>, IIProjectClient.projectService.iProjectService {
         
         public iProjectServiceClient() {
         }

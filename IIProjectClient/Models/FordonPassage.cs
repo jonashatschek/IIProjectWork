@@ -9,7 +9,6 @@ namespace IIProjectClient.Models
 {
     public class FordonPassage
     {
-        public int ID { get; set; }
         public string fordonsEPC { get; set; }
         public Plats plats { get; set; }
         public string tidpunkt { get; set; }
@@ -18,12 +17,12 @@ namespace IIProjectClient.Models
         public string uaForetag { get; set; }
         public string fordonstyp { get; set; }
         public string giltigtGodkannande { get; set; }
+        public Tjänstemeddelande tjanstemeddelande { get; set; }
 
         public static FordonPassage fromXML(XElement xml)
         {
             FordonPassage fordonPassage = new FordonPassage()
             {
-                //ID = (int)xml.Element("ID"),
                 fordonsEPC = xml.Element("fordonsEPC").Value,
                 plats = new Plats()
                 {
@@ -44,7 +43,6 @@ namespace IIProjectClient.Models
         {
             var xml =
                 new XElement("FordonPassage",
-                    new XElement("ID", this.ID),
                     new XElement("fordonsEPC", this.fordonsEPC),
                     plats.toXML(),
                     new XElement("tidpunkt", this.tidpunkt.ToString()),
@@ -64,9 +62,7 @@ namespace IIProjectClient.Models
 }
 /* Såhär ska hela XML-svaret se ut i slutändan. 
 <sökning>
-   <id></id>
    <FordonPassage>
-       <ID></ID>
        <fordonsEPC></fordonsEPC>
        <Plats>
            <platsEPC></platsEPC>
@@ -82,7 +78,6 @@ namespace IIProjectClient.Models
        </FordonsInfo>
    </FordonPassage>
    <Tjänstemeddelande>
-       <ID></ID>
        <svarskod></svarskod>
        <meddelande></meddelande>
        <tjänsteansvarig></tjänsteansvarig>

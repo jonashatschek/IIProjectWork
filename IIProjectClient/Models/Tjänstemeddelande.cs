@@ -8,7 +8,6 @@ namespace IIProjectClient.Models
 {
     public class Tjänstemeddelande
     {
-        public int ID { get; set; }
         public string svarskod { get; set; }
         public string meddelande { get; set; }
         public string tjänsteansvarig { get; set; }
@@ -21,7 +20,6 @@ namespace IIProjectClient.Models
         {
             Tjänstemeddelande tjänstemeddelande = new Tjänstemeddelande() 
             { 
-                ID = (int)xml.Element("tjänstemeddelande").Element("ID"),
                 svarskod = xml.Element("tjänstemeddelande").Element("svarskod").Value,
                 meddelande = xml.Element("tjänstemeddelande").Element("meddelande").Value,
                 tjänsteansvarig = xml.Element("tjänstemeddelande").Element("tjänsteansvarig").Value,
@@ -37,7 +35,6 @@ namespace IIProjectClient.Models
         {
             var xml = 
                 new XElement("Tjänstemeddelande",
-                    new XElement("ID", this.ID),
                     new XElement("svarskod", this.svarskod),
                     new XElement("meddelande", this.meddelande),
                     new XElement("tjänsteansvarig", this.tjänsteansvarig),
@@ -51,19 +48,3 @@ namespace IIProjectClient.Models
 
     }
 }
-/*
- <Sökning>
-    <id></id>
-    <Tjänstemeddelande>
-        <ID></ID>
-        <svarskod></svarskod>
-        <meddelande></meddelande>
-        <tjänsteansvarig></tjänsteansvarig>
-        <appNamnVer></appNamnVer>
-        <tidpunkt></tidpunkt>
-        <anropsansvarig></anropsansvarig>
-        <argument></argument>
-    </Tjänstemeddelande>
- </Sökning>
- 
- */

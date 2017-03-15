@@ -1,9 +1,10 @@
 ﻿@model IIProjectClient.Models.Sökning
+
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Banditernas Tågservice</h2>
 
 @using (Html.BeginForm())
 {
@@ -12,6 +13,10 @@
 
     <fieldset>
         <legend>Event</legend>
+        <div>
+            <label>Användarnamn</label>
+            @Html.TextBox("namn", null, new { type = "string" })
+        </div>
         <div>
             <label>Från</label>
             @Html.TextBox("from", null, new { type = "date" })
@@ -22,170 +27,181 @@
         </div>
         <div>
             <label>Plats</label>
-            @Html.TextBox("plats", null, new { type = "string" })
+            @Html.DropDownList("plats", new SelectList(
+                  new List<string>{
+                       "Falkoping",
+                       "Goteborg",
+                       "Hunstugan_USP",
+                       "Hunstugan_NSP",
+                       "Lönnsboda",
+                       "Odensberg_USP",
+                       "Odensberg_NSP",
+                       "Pölsebo",
+                       "Sunderbyns_Sjukhus",
+                       "Tväråbäck"
+                    }), new { type = "string" })
         </div>
         <p>
             <input type="submit" value="Sök"/>
         </p>
     </fieldset>
 }
-
-
-
-    @if (Model != null)
+    @*
+@if (Model != null)
+{
+    <table>
+        <thead>
+            <tr style="font-weight: bold">
+                <th>
+                    Svarsinformation
+                </th>
+                <th></th>
+                <th>
+                    Anropsinformation
+                </th>
+                <th>
+                    
+                </th>
+            </tr>
+        </thead>
+        <tr>
+            <td>
+                Svarskod
+            </td>
+            <td>
+                @Html.Raw(Model.tjänstemeddelande.svarskod)
+            </td>
+            <td>
+                Anropsansvarig
+            </td>
+            <td>
+                @Html.Raw(Model.tjänstemeddelande.anropsansvarig)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Meddelande
+            </td>
+            <td>
+                @Html.Raw(Model.tjänstemeddelande.meddelande)
+            </td>
+            <td>
+                Argument för sökning
+            </td>
+            <td>
+                @Html.Raw(Model.tjänstemeddelande.argument)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Tjänsteansvarig
+            </td>
+            <td>
+                @Html.Raw(Model.tjänstemeddelande.tjänsteansvarig)
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Applikationsnamn och version
+            </td>
+            <td>
+                @Html.Raw(Model.tjänstemeddelande.appNamnVer)
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                Tidpunkt för svaret
+            </td>
+            <td>
+                @Html.Raw(Model.tjänstemeddelande.tidpunkt.ToString("d"))
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <hr />
+    foreach (var item in Model.fordonPassage)
     {
         <table>
             <tr style="font-weight: bold">
                 <td>
-                    Svarsinformation
+                    Fordonets EPC
                 </td>
                 <td>
+                    @Html.Raw(item.fordonsEPC)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Platsens EPC
+                </td>
+                <td>
+                    @Html.Raw(item.plats.platsEPC)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tid
+                </td>
+                <td>
+                    @Html.Raw(item.tidpunkt)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Plats
+                </td>
+                <td>
+                    @Html.Raw(item.plats.platsNamn)
+                </td>
+            </tr>
 
+            <tr>
+                <td>
+                    EVN
                 </td>
                 <td>
-                    Anropsinformation
-                </td>
-                <td>
-
+                    @Html.Raw(item.EVN)
                 </td>
             </tr>
             <tr>
                 <td>
-                    Svarskod
+                    Fordoninnehavare
                 </td>
                 <td>
-                    @Html.Raw(Model.tjänstemeddelande.svarskod)
-                </td>
-                <td>
-                    Anropsansvarig
-                </td>
-                <td>
-                    @Html.Raw(Model.tjänstemeddelande.anropsansvarig)
+                    @Html.Raw(item.fordonsinnehavare)
                 </td>
             </tr>
             <tr>
                 <td>
-                    Meddelande
+                    Underhållsansvarigt företag
                 </td>
                 <td>
-                    @Html.Raw(Model.tjänstemeddelande.meddelande)
-                </td>
-                <td>
-                    Argument för sökning
-                </td>
-                <td>
-                    @Html.Raw(Model.tjänstemeddelande.argument)
+                    @Html.Raw(item.uaForetag)
                 </td>
             </tr>
             <tr>
                 <td>
-                    Tjänsteansvarig
+                    Fordonstyp
                 </td>
                 <td>
-                    @Html.Raw(Model.tjänstemeddelande.tjänsteansvarig)
+                    @Html.Raw(item.fordonstyp)
                 </td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <td>
-                    Applikationsnamn och version
+                    Giltigt godkännande
                 </td>
                 <td>
-                    @Html.Raw(Model.tjänstemeddelande.appNamnVer)
+                    @Html.Raw(item.giltigtGodkannande)
                 </td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>
-                    Tidpunkt för svaret
-                </td>
-                <td>
-                    @Html.Raw(Model.tjänstemeddelande.tidpunkt)
-                </td>
-                <td></td>
-                <td></td>
             </tr>
         </table>
-        <hr />
-        foreach (var item in Model.fordonPassage)
-        {
-            <table>
-                <tr style="font-weight: bold">
-                    <td>
-                        Fordonets EPC
-                    </td>
-                    <td>
-                        @Html.Raw(item.fordonsEPC)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Platsens EPC
-                    </td>
-                    <td>
-                        @Html.Raw(item.plats.platsEPC)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Tid
-                    </td>
-                    <td>
-                        @Html.Raw(item.tidpunkt)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Plats
-                    </td>
-                    <td>
-                        @Html.Raw(item.plats.platsNamn)
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        EVN
-                    </td>
-                    <td>
-                        @Html.Raw(item.EVN)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Fordoninnehavare
-                    </td>
-                    <td>
-                        @Html.Raw(item.fordonsinnehavare)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Underhållsansvarigt företag
-                    </td>
-                    <td>
-                        @Html.Raw(item.uaForetag)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Fordonstyp
-                    </td>
-                    <td>
-                        @Html.Raw(item.fordonstyp)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Giltigt godkännande
-                    </td>
-                    <td>
-                        @Html.Raw(item.giltigtGodkannande)
-                    </td>
-                </tr>
-            </table>
-        }
     }
+}
 
+    *@
